@@ -1,0 +1,98 @@
+/*.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } kolory */
+
+
+*{                                		
+	margin:0 ;
+	padding:0;
+	box-sizing:border-box;
+}
+
+img{						
+	display:block;
+	width:100px;
+	border-radius:50%;
+	margin:0 auto;
+}
+
+body{
+	font-family: "Inter", sans-serif;
+	font-size:14px;
+	background-color:hsl(0, 0%, 8%);
+	color:hsl(0, 0%, 100%);
+	min-height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.container{
+	
+	text-align:center;
+}
+.card{
+	
+	background-color:hsl(0, 0%, 12%);
+	border-radius:10px;
+	width:375px;
+	padding:30px;	
+}
+
+.header{
+	text-align:center;
+}
+
+.green{
+	color:hsl(75, 94%, 57%);
+	padding:10px 0;
+}
+
+.article{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.img{
+	padding-bottom:30px;
+}
+
+.menu ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	display:flex;
+	flex-direction:column;
+	gap:20px;	
+}
+
+li{
+	background-color:hsl(0, 0%, 20%);
+	padding:18px;
+	width:100%;
+	border-radius:10px;
+	font-weight:700;	
+}
+
+li:hover{
+	background-color:hsl(75, 94%, 57%);
+	color:hsl(0, 0%, 8%);
+	padding:18px;
+	width:100%;
+	border-radius:10px;
+	font-weight:700;
+	cursor:pointer;
+}
+
+li a{
+	text-decoration:none;
+	color:hsl(0, 0%, 100%);
+}
+
+li:hover a{
+	
+	color:hsl(0, 0%, 8%);	
+}
+
+
+
+
